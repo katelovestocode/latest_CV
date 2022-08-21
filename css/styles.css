@@ -164,13 +164,39 @@ h2 {
   align-items: center;
 }
 
+/*  Skills  */
+
+.skills__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Languages */
+
+.language__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/*  About me */
+
+/*  Education  */
+.education__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.education__text {
+  margin-bottom: 5px;
+}
+
 /*  Projects */
 
+.projects__sub-title {
+  margin-bottom: 5px;
+}
 .projects__item:not(:last-child) {
   margin-bottom: 15px;
 }
 .projects__link {
   margin-right: 15px;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--primary-accent-color);
 }
