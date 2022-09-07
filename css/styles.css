@@ -51,6 +51,11 @@ p {
   padding-right: 15px;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .section {
   margin-bottom: 50px;
 }
