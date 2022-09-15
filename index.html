@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">CV</title>
+
+<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Kurale&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -22,14 +25,13 @@
   <body class="body">
     <!-- Header -->
     <div class="wrapper"> 
-    
       <header class="header">
-        <div class="column-left picture">
+        <div class="column-left">
           <figure class="profile-picture__avatar">
               <img src="./images/profile-picture.jpg" alt="profile-picture" class="profile-picture" /> </figure>
         
         </div>
-        <div class="column-right">
+        <div class="column-right header__text">
           <h1 class="header__title">Kate <span class="header__span"> Vaskevich </span></h1>
           <h3 class="header__subtitle">Full-Stack Developer</h3>
       
@@ -45,7 +47,7 @@
             <ul class="contacts__list list">
              
               <li class="contacts__item">
-                <a href="https://github.com/katelovestocode" class="contacts__link">
+                <a href="https://github.com/katelovestocode" target="blank" class="contacts__link"> 
                             <svg class="contacts__icon">
                           <use href="./images/svg/all-icons.svg#icon-github-4"></use>
                         </svg>
@@ -61,7 +63,7 @@
                 </a>
               </li>
               <li class="contacts__item">
-                <a href="mailto:anofficespace00@gmail.com" class="contacts__link">
+                <a href="mailto:anofficespace00@gmail.com" target="blank" class="contacts__link">
                     <svg class="contacts__icon">
                           <use href="./images/svg/all-icons.svg#icon-email2"></use>
                         </svg>
@@ -81,13 +83,12 @@
           <section class="section skills">
             <h2 class="skills__title">Skills</h2>
             <ul class="skills__list list">
-              <li class="skills__item">HTML5</li>
+              <li class="skills__item"> HTML5 </li>
               <li class="skills__item">CSS3</li>
               <li class="skills__item">JS basic</li>
-              <li class="skills__item">SCSS</li>
+              <li class="skills__item">SASS</li>
               <li class="skills__item">Git&Github</li>
-              <li class="skills__item"></li>
-              <li class="skills__item"></li>
+             
             </ul>
           </section>
 
@@ -106,7 +107,32 @@
           <!-- Section About-me -->
           <section class="section about-me">
             <h2 class="about-me__title">About me</h2>
-            <p class="about-me__text">Hi, I am Kate. I have been self-employed for the last 6 years. The times and circumstances have changed at this moment and I am seeking a new remote career opportunity. I have a strong passion and motivation to learn new skills and establish myself in a new industry. I’m highly organized, and I’ve applied my natural skill set for organizing to all aspects of my work. I have analytical skills; I work diligently and efficiently deliver results. I am committed to meeting deadlines and taking responsibility for the quality of my performance. Let’s connect, discuss opportunities and see how I can be of your service. </p>
+            <p class="about-me__text">For over a decade, I have been a “Jack of all trades”, but finally I have made a commitment to a new career path. The aim is a full-stack development.</p>
+          </section>
+
+              <!-- Section Projects -->
+          <section class="section projects">
+            <h2 class="projects__title">Projects</h2>
+            <ul class="projects__list list">
+                <li class="projects__item">
+                <h4 class="projects__sub-title"> HTML/SASS Personal Project</h4>
+                <a href="https://github.com/katelovestocode/goit-markup-hw-08" target="blank" class="projects__link"> Github </a>
+                <a href="https://katelovestocode.github.io/goit-markup-hw-08/" target="blank" class="projects__link"> Website </a>
+                <p class="projects__text"> Responsive and Adaptive Layout using SASS </p>
+              </li>
+              <li class="projects__item">
+                <h4 class="projects__sub-title"> HTML/SASS Team Project</h4>
+                <a href="https://github.com/mezochka/goit-team7-project/" target="blank" class="projects__link"> Github </a>
+                <a href="https://mezochka.github.io/goit-team7-project/" target="blank" class="projects__link"> Website </a>
+                <p class="projects__text"> In this team project I have worked on the header and a mobile menu of the website. </p>
+              </li>
+              <li class="projects__item">
+                <h4 class="projects__sub-title"> HTML/SASS/JavaScript Team Project</h4>
+                <a href="https://github.com/DZaporozhan/Filmoteka" target="blank" class="projects__link"> Github </a>
+                <a href="https://dzaporozhan.github.io/Filmoteka/" target="blank" class="projects__link"> Website </a>
+                <p class="projects__text"> In this team project I have been a Scrum Master. Besides that responsibility I also worked on scroll-up button, and error-handling of the search input. </p>
+              </li>
+            </ul>
           </section>
 
           <!-- Section Education -->
@@ -115,38 +141,13 @@
             <ul class="education__list list">
               <li class="education__item">  
                 <h4 class="education__text">Feb 2022 - Present </h4>
-                <p class="education__sub-text"> Full-Stack Student Development at GoIT</p> 
+                <p class="education__sub-text"> Full-Stack Development Student at GoIT</p> 
               </li>
               <li class="education__item">  
                 <h4 class="education__text"> 2006 - 2010 </h4>
                 <p class="education__sub-text">
-                    Ukrainian Institute of Arts and Sciences 
-                    <br> Bachelor's degree, Business Administration and Management </p> 
-              </li>
-            </ul>
-           
-          </section>
-
-          <!-- Section Projects -->
-          <section class="section projects">
-            <h2 class="projects__title">Projects</h2>
-            <ul class="projects__list list">
-
-                   <li class="projects__item">
-                <h4 class="projects__title"> HTML/SCSS Personal Project</h4>
-                <a href="https://github.com/katelovestocode/goit-markup-hw-08" target="blank" class="projects__link"> Github </a>
-                <a href="https://katelovestocode.github.io/goit-markup-hw-08/" target="blank" class="projects__link"> Website </a>
-                <p class="projects__text"> Responsive and Adaptive Layout using SCSS </p>
-              </li>
-              <li class="projects__item">
-                <h4 class="projects__title"> HTML/SCSS Team Project</h4>
-                <a href="https://github.com/mezochka/goit-team7-project/" target="blank" class="projects__link"> Github </a>
-                <a href="https://mezochka.github.io/goit-team7-project/" target="blank" class="projects__link"> Website </a>
-                <p class="projects__text"> In this project I have worked on the header and a mobile menu of the website. </p>
-              </li>
-           
-              <li class="projects__item">
-                <a href="" target="blank" class="projects__link"></a>
+                    Ukrainian Institute of Arts and Sciences  </p> 
+                <p class="education__after-text"> Bachelor's degree, Business Administration and Management </p> 
               </li>
             </ul>
           </section>
